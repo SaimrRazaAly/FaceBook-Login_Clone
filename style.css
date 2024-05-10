@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #f0f2f5;
+}
+
+.container {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 1% 9%;
+    margin-left: 5%;
+}
+
+.f-form{
+        width: 53%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+}
+.f-content{
+    width: 50%;
+}
+.f-content h1 {
+    font-size: 60px;
+    color: #0866ff;
+    font-family: system-ui;
+    
+}
+
+.f-content p {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form {
+    border: none;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0 0;
+    padding: 20px 30px;
+    width: 396px;
+    height: 330px;
+    padding: 5% 4%;
+    transform:translateY(20px) translateX(-15px);
+}
+
+.form-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#E-mail-box,#password-box {
+    max-width: 100%;
+    min-height: 32px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #0866ff;
+    padding: 5px;
+    
+}
+#E-mail-box {
+    padding: 8px;
+}
+
+#password-box {
+    background: transparent;
+    border: none;
+}
+
+.password {
+    display: flex;
+    background: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+    border: 1px solid #0866ff;
+    border-radius: 5px;
+}
+
+
+.password img {
+    width: 20px;
+}
+
+.login-btn{
+    background-color: #0866ff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    margin: auto;
+    width: 332px;
+    color: #ffff;
+    cursor: pointer;
+    width: 100%;
+}
+
+#forget{
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    margin: auto;
+    text-decoration: none;
+    color: #0866ff;
+}
+
+.extra-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.extra-info button{
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+background: #42b72a;
+transition: all 0.5s ;
+color: #fff;
+cursor: pointer;
+}
+
+
+.extra-info button:hover{
+    background: #258113;
+}
+
+::placeholder{
+    font-size: 16px;
+    color: gray;
+}
+
+p a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

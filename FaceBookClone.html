@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/5968/5968764.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Facebook - login sign up</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="f-content">
+
+            <h1>facebook</h1>
+            <p>Facebook helps you connect and share with the people in your life.
+            </p>
+        </div>
+        <div class="f-form">
+            <form action="#">
+                <div class="form-info">
+                    <input type="email" id="E-mail-box" placeholder="Email Address or phone number">
+                    <div class="password">
+                        <input type="password" id="password-box" placeholder="Password" maxlength="18" required>
+                        <img src="https://cdn-icons-png.flaticon.com/128/10812/10812267.png" alt="" id="eye-icon">
+            </form>
+        </div>
+        <button class="login-btn">Login</button>
+        <a href="#" id="forget">Forget Password?</a>
+        <hr>
+        <div class="extra-info">
+            <button>Create new Account</button>
+        </div>
+    </div>
+    </form>
+    <p><a href="#">Create a page</a> for a celebrity brand or bunisess</p>
+    </div>
+    </div>
+
+
+    <script>
+        let password = document.getElementById('password-box');
+        let eyeicon = document.getElementById('eye-icon');
+
+        eyeicon.addEventListener('click', (e) => {
+            if (password.type == "password") {
+                password.type = "text";
+                eyeicon.src = "https://cdn-icons-png.flaticon.com/128/11502/11502541.png";
+            }
+            
+            else if (password.value.length <= 0) {
+    eyeicon.style.display = "none";
+}
+            
+            else{
+                password.type = "password";
+                eyeicon.src = "https://cdn-icons-png.flaticon.com/128/10812/10812267.png";
+
+            }
+        })
+    </script>
+
+</body>
+
+</html>
